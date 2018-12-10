@@ -1,0 +1,22 @@
+{
+  "name": "brendoces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobbyErickson89/brendoces.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobbyErickson89/brendoces/issues"
+  },
+  "homepage": "https://github.com/BobbyErickson89/brendoces#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
