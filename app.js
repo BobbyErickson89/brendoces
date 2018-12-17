@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
+const routes = require('./routes/index');
 const port = 3000;
 
-app.get('/', (req, res) => {
-    res.send('Brendoces website');
-});
+// Allowing us to handle our routes
+app.use('/', routes);
 
 app.listen(port, () => {
     console.log('Brendoces running on port ${3000}!');
