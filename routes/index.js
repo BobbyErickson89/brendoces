@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send('Brendoces website');
+    res.render('welcome');
 });
 
 router.get('/menu', (req, res) => {
